@@ -68,6 +68,7 @@ video {
 	text-align:center;
 	overflow:hidden;
 	white-space:nowrap;
+	/* ellispsis: when text is too long for element, it adds ... at end of text, example: if element fit 6 letter, text "long textttttt" = "long t..."   */
   	text-overflow:ellipsis;
 }
 .controls progress {
