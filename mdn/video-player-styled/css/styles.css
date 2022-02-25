@@ -160,10 +160,10 @@ html:-ms-fullscreen {
 	width:100%;
 }
 :-webkit-full-screen {
-	background-color:transparent;
+	background-color: #666;
 }
 video:-webkit-full-screen + .controls {
-	background:#ccc; /* required for Chrome which doesn't heed the transparent value set above */
+	background:#666; /* required for Chrome which doesn't heed the transparent value set above */
 }
 video:-webkit-full-screen + .controls progress {
 	margin-top:0.5rem;
